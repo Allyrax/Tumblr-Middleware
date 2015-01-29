@@ -30,7 +30,7 @@ module.exports = function (app, handler) {
     });
 
     app.post('/deliver', function(req, res, next) {
-		console.log(JSON.stringify(req.body));
+		console.log(JSON.stringify(req.body, null, 4));
         handler.deliver(req.body.params, req.body.playlist, function(err, result) {
             if (err) {
                 next(err);

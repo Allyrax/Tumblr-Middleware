@@ -1,0 +1,1513 @@
+2015-01-29T20:09:28.574554+00:00 app[web.1]: 403
+2015-01-29T20:09:31.517888+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,1,'name','message', 1)
+2015-01-29T20:09:31.528914+00:00 app[web.1]: 403
+2015-01-29T20:09:31.732761+00:00 heroku[api]: Deploy eb09030 by matt.laing13@gmail.com
+2015-01-29T20:09:31.732789+00:00 heroku[api]: Release v8 created by matt.laing13@gmail.com
+2015-01-29T20:09:31.927939+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T20:09:34.520661+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,1,'name','message', 1)
+2015-01-29T20:09:34.630367+00:00 app[web.1]: 403
+2015-01-29T20:09:34.916824+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T20:09:35.439506+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:09:37.604077+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T20:09:37.580888+00:00 app[web.1]: Listening on port: 12693
+2015-01-29T20:09:37.801981+00:00 app[web.1]: d02c24ca-3432-4cc4-b3d3-6dd1e5c3a750
+2015-01-29T20:09:37.831758+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:10:03.349478+00:00 heroku[router]: at=info method=POST path="/myhandler/accept" host=quiet-garden-7794.herokuapp.com request_id=de775ea7-8553-44e0-b157-fbca89baa3e1 fwd="129.100.253.73" dyno=web.1 connect=2ms service=45ms status=404 bytes=255
+2015-01-29T20:10:03.352357+00:00 app[web.1]: 2015-01-29T20:10:03.351Z -> info: [0mPOST /myhandler/accept [33m404 [0m27.526 ms - 69[0m
+2015-01-29T20:10:10.274458+00:00 heroku[ro
+uter]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=82396d3b-5afb-4b76-85d6-6804d9d60fe6 fwd="129.100.253.73" dyno=web.1 connect=2ms service=4ms status=404 bytes=255
+2015-01-29T20:10:10.275199+00:00 app[web.1]: 2015-01-29T20:10:10.275Z -> info: [0mPOST //accept [33m404 [0m1.649 ms - 69[0m
+2015-01-29T20:12:14.899046+00:00 heroku[api]: Deploy 7932ca1 by matt.laing13@gmail.com
+2015-01-29T20:12:14.899046+00:00 heroku[api]: Release v9 created by matt.laing13@gmail.com
+2015-01-29T20:12:15.326713+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T20:12:18.129933+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:12:18.916953+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T20:12:20.176619+00:00 app[web.1]: Listening on port: 14129
+2015-01-29T20:12:20.439243+00:00 app[web.1]: 99e3fd4d-6e8b-4a63-82f6-07a97079e8e2
+2015-01-29T20:12:20.829535+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T20:12:21.044499+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:12:22.360218+00:00 app[web.1]: JSON accepted
+2015-01-29T20:12:22.642011+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=9f65a28a-cfe0-4a2a-9e7b-5cf201d9aa7e fwd="129.100.253.73" dyno=web.1 connect=2ms service=17ms status=200 bytes=182
+2015-01-29T20:12:22.359959+00:00 app[web.1]: 2015-01-29T20:12:22.359Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:12:22.365236+00:00 app[web.1]: 2015-01-29T20:12:22.365Z -> info: [0mPOST //accept [32m200 [0m8.510 ms - 17[0m
+2015-01-29T20:12:54.770824+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=cc6bdeb3-60a6-41f9-bede-f599321706ec fwd="23.20.10.29" dyno=web.1 connect=6ms service=15ms status=500 bytes=251
+2015-01-29T20:12:54.473301+00:00 app[web.1]: 2015-01-29T20:12:54.473Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:12:54.473420+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:12:54.473341+00:00 app[web.1]: JSON accepted
+2015-01-29T20:12:54.481004+00:00 app[web.1]: 2015-01-29T20:12:54.480Z -> info: [0mPOST //accept [31m500 [0m8.222 ms - 53[0m
+2015-01-29T20:13:39.310547+00:00 app[web.1]: 2015-01-29T20:13:39.310Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:13:39.596078+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=08a55873-a25b-4351-b97a-b8de63190648 fwd="23.20.10.29" dyno=web.1 connect=0ms service=3ms status=500 bytes=251
+2015-01-29T20:13:39.311434+00:00 app[web.1]: 2015-01-29T20:13:39.311Z -> info: [0mPOST //accept [31m500 [0m1.156 ms - 53[0m
+2015-01-29T20:13:39.310567+00:00 app[web.1]: JSON accepted
+2015-01-29T20:13:39.310593+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:22:23.549188+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=c25d0b8c-553b-421b-b648-0324347d27a4 fwd="54.162.96.79" dyno=web.1 connect=2ms service=3ms status=500 bytes=251
+2015-01-29T20:22:23.513615+00:00 app[web.1]: JSON accepted
+2015-01-29T20:22:23.513637+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:22:23.514486+00:00 app[web.1]: 2015-01-29T20:22:23.514Z -> info: [0mPOST //accept [31m500 [0m1.208 ms - 53[0m
+2015-01-29T20:22:23.513590+00:00 app[web.1]: 2015-01-29T20:22:23.513Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:26:55.300652+00:00 heroku[api]: Deploy 174d44a by matt.laing13@gmail.com
+2015-01-29T20:26:55.300652+00:00 heroku[api]: Release v10 created by matt.laing13@gmail.com
+2015-01-29T20:26:55.578982+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T20:26:57.723982+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T20:26:58.054075+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:26:59.175044+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T20:26:59.402912+00:00 app[web.1]: Listening on port: 37627
+2015-01-29T20:26:59.546050+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:26:59.909170+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:27:02.395422+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:02.428911+00:00 app[web.1]: 500
+2015-01-29T20:27:02.395457+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:05.408389+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:05.444954+00:00 app[web.1]: 500
+2015-01-29T20:27:05.408423+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:08.413318+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:08.413327+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:08.441021+00:00 app[web.1]: 500
+2015-01-29T20:27:11.415105+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:11.429501+00:00 app[web.1]: 500
+2015-01-29T20:27:11.415134+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:14.416992+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:14.416970+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:14.435185+00:00 app[web.1]: 500
+2015-01-29T20:27:17.421575+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:17.434253+00:00 app[web.1]: 500
+2015-01-29T20:27:17.421584+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:20.424566+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:20.424576+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:20.434397+00:00 app[web.1]: 500
+2015-01-29T20:27:23.440856+00:00 app[web.1]: 500
+2015-01-29T20:27:23.427378+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:23.427390+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALU
+ES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:26.429058+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:26.445613+00:00 app[web.1]: 500
+2015-01-29T20:27:26.429081+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:29.433927+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:29.433905+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:29.448987+00:00 app[web.1]: 500
+2015-01-29T20:27:32.439297+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:32.439320+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:32.456113+00:00 app[web.1]: 500
+2015-01-29T20:27:35.443424+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:35.443446+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:35.453820+00:00 app[web.1]: 500
+2015-01-29T20:27:38.446592+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:38.446615+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:38.456291+00:00 app[web.1]: 500
+2015-01-29T20:27:41.446868+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:41.446886+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:41.458884+00:00 app[web.1]: 500
+2015-01-29T20:27:44.451925+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:44.465036+00:00 app[web.1]: 500
+2015-01-29T20:27:44.451915+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:47.456404+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:47.466435+00:00 app[web.1]: 500
+2015-01-29T20:27:47.456413+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:50.473064+00:00 app[web.1]: 500
+2015-01-29T20:27:50.459072+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:50.459080+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:51.406647+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=d246f9d1-bc3c-46e3-90c9-b3788ea89fa0 fwd="54.162.96.79" dyno=web.1 connect=1ms service=14ms status=500 bytes=251
+2015-01-29T20:27:51.185519+00:00 app[web.1]: 2015-01-29T20:27:51.185Z -> info: [0mPOST //accept [31m500 [0m8.450 ms - 53[0m
+2015-01-29T20:27:51.179965+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:27:51.179863+00:00 app[web.1]: 2015-01-29T20:27:51.179Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:27:51.179935+00:00 app[web.1]: JSON accepted
+2015-01-29T20:27:51.484969+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=7ad4a4d4-5887-4b31-a62b-5ad09852b23b fwd="54.162.96.79" dyno=web.1 connect=1ms service=3ms status=500 bytes=251
+2015-01-29T20:27:51.264816+00:00 app[web.1]: 2015-01-29T20:27:51.264Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:27:51.264843+00:00 app[web.1]: JSON accepted
+2015-01-29T20:27:51.264875+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:27:51.265904+00:00 app[web.1]: 2015-01-29T20:27:51.265Z -> info: [0mPOST //accept [31m500 [0m1.437 ms - 53[0m
+2015-01-29T20:27:53.464133+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:53.476589+00:00 app[web.1]: 500
+2015-01-29T20:27:53.464140+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:56.466093+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:56.466100+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:56.479883+00:00 app[web.1]: 500
+2015-01-29T20:27:59.471175+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:27:59.471194+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:27:59.487966+00:00 app[web.1]: 500
+2015-01-29T20:28:02.491727+00:00 app[web.1]: 500
+2015-01-29T20:28:02.475044+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:02.475018+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:05.479911+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:05.490349+00:00 app[web.1]: 500
+2015-01-29T20:28:05.479918+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:08.482334+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:08.495057+00:00 app[web.1]: 500
+2015-01-29T20:28:08.482356+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:11.486401+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:11.499756+00:00 app[web.1]: 500
+2015-01-29T20:28:11.486409+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:14.487648+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:14.487656+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:14.500055+00:00 app[web.1]: 500
+2015-01-29T20:28:17.488846+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:17.488822+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:17.505540+00:00 app[web.1]: 500
+2015-01-29T20:28:20.490392+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:20.500141+00:00 app[web.1]: 500
+2015-01-29T20:28:20.490419+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:23.495028+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:23.507014+00:00 app[web.1]: 500
+2015-01-29T20:28:23.494813+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:26.514748+00:00 app[web.1]: 500
+2015-01-29T20:28:26.499396+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:26.499419+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:29.503059+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:29.503066+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:29.515734+00:00 app[web.1]: 500
+2015-01-29T20:28:32.505761+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:32.505769+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:32.519745+00:00 app[web.1]: 500
+2015-01-29T20:28:35.506858+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:35.506866+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:35.516817+00:00 app[web.1]: 500
+2015-01-29T20:28:38.511375+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:38.511366+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:38.523295+00:00 app[web.1]: 500
+2015-01-29T20:28:41.512509+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:41.512469+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:41.522960+00:00 app[web.1]: 500
+2015-01-29T20:28:44.514000+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:44.514010+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:44.532678+00:00 app[web.1]: 500
+2015-01-29T20:28:47.517711+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:47.517733+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:47.528281+00:00 app[web.1]: 500
+2015-01-29T20:28:50.519358+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:50.519367+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:50.531381+00:00 app[web.1]: 500
+2015-01-29T20:28:53.522693+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:53.522702+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:53.533636+00:00 app[web.1]: 500
+2015-01-29T20:28:56.523735+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:56.537871+00:00 app[web.1]: 500
+2015-01-29T20:28:56.523744+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:59.526783+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:28:59.526790+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:28:59.540973+00:00 app[web.1]: 500
+2015-01-29T20:29:02.528479+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:02.539944+00:00 app[web.1]: 500
+2015-01-29T20:29:02.528489+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:05.533020+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:05.532267+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:05.582820+00:00 app[web.1]: 500
+2015-01-29T20:29:08.537854+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:08.554171+00:00 app[web.1]: 500
+2015-01-29T20:29:08.537862+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:11.539919+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:11.539928+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:11.550447+00:00 app[web.1]: 500
+2015-01-29T20:29:14.544315+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:14.544322+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:14.555019+00:00 app[web.1]: 500
+2015-01-29T20:29:17.546504+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:17.546513+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:17.562580+00:00 app[web.1]: 500
+2015-01-29T20:29:20.549388+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:20.559765+00:00 app[web.1]: 500
+2015-01-29T20:29:20.549375+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:23.550524+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:23.550534+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:23.566687+00:00 app[web.1]: 500
+2015-01-29T20:29:26.553064+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:26.553085+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:26.565881+00:00 app[web.1]: 500
+2015-01-29T20:29:29.555667+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:29.555676+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:29.569259+00:00 app[web.1]: 500
+2015-01-29T20:29:32.557217+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:32.557240+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:32.571073+00:00 app[web.1]: 500
+2015-01-29T20:29:35.559618+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:35.571837+00:00 app[web.1]: 500
+2015-01-29T20:29:35.559626+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:38.562544+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:38.578107+00:00 app[web.1]: 500
+2015-01-29T20:29:38.562554+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:41.563405+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:41.563396+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:41.576263+00:00 app[web.1]: 500
+2015-01-29T20:29:44.579026+00:00 app[web.1]: 500
+2015-01-29T20:29:44.565711+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:44.565730+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:47.567391+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:47.567486+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:47.580263+00:00 app[web.1]: 500
+2015-01-29T20:29:50.580754+00:00 app[web.1]: 500
+2015-01-29T20:29:50.570768+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:50.570761+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:53.571419+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:53.571390+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:53.584132+00:00 app[web.1]: 500
+2015-01-29T20:29:56.574132+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:29:56.587456+00:00 app[web.1]: 500
+2015-01-29T20:29:56.574123+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:59.577799+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:29:59.590141+00:00 app[web.1]: 500
+2015-01-29T20:29:59.577829+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:02.580345+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:02.599045+00:00 app[web.1]: 500
+2015-01-29T20:30:02.580336+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:05.581943+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:05.581976+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:05.597195+00:00 app[web.1]: 500
+2015-01-29T20:30:08.583613+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:08.583621+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:08.594459+00:00 app[web.1]: 500
+2015-01-29T20:30:11.585526+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:11.585536+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:11.599641+00:00 app[web.1]: 500
+2015-01-29T20:30:14.587126+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:14.587135+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:14.597670+00:00 app[web.1]: 500
+2015-01-29T20:30:17.591325+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:17.591359+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:17.610135+00:00 app[web.1]: 500
+2015-01-29T20:30:20.612292+00:00 app[web.1]: 500
+2015-01-29T20:30:20.596538+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:20.596669+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:23.612054+00:00 app[web.1]: 500
+2015-01-29T20:30:23.599381+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:23.599392+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:26.602394+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:26.602431+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:26.613020+00:00 app[web.1]: 500
+2015-01-29T20:30:29.604573+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:29.604583+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:29.618568+00:00 app[web.1]: 500
+2015-01-29T20:30:32.606933+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:32.618302+00:00 app[web.1]: 500
+2015-01-29T20:30:32.606907+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:35.612961+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:35.622892+00:00 app[web.1]: 500
+2015-01-29T20:30:35.612968+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:38.618234+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:38.618242+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:38.628139+00:00 app[web.1]: 500
+2015-01-29T20:30:41.621775+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:41.621817+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:41.631582+00:00 app[web.1]: 500
+2015-01-29T20:30:44.623029+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:44.641920+00:00 app[web.1]: 500
+2015-01-29T20:30:44.623064+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:47.642323+00:00 app[web.1]: 500
+2015-01-29T20:30:47.625755+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:47.626590+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:50.629379+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:50.629410+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:50.648594+00:00 app[web.1]: 500
+2015-01-29T20:30:53.632946+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:53.632915+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:53.642400+00:00 app[web.1]: 500
+2015-01-29T20:30:56.647537+00:00 app[web.1]: 500
+2015-01-29T20:30:56.637730+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:56.637738+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:30:59.640882+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:30:59.651586+00:00 app[web.1]: 500
+2015-01-29T20:30:59.640907+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:02.655167+00:00 app[web.1]: 500
+2015-01-29T20:31:02.644909+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:02.644866+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:05.647440+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:05.647535+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:05.697467+00:00 app[web.1]: 500
+2015-01-29T20:31:08.658238+00:00 app[web.1]: 500
+2015-01-29T20:31:08.648789+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:08.648758+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:11.651381+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:11.662118+00:00 app[web.1]: 500
+2015-01-29T20:31:11.651390+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:14.652620+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:14.652631+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:14.667826+00:00 app[web.1]: 500
+2015-01-29T20:31:17.653413+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:17.653422+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:17.664094+00:00 app[web.1]: 500
+2015-01-29T20:31:20.654053+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:20.654045+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:20.667991+00:00 app[web.1]: 500
+2015-01-29T20:31:23.668660+00:00 app[web.1]: 500
+2015-01-29T20:31:23.658238+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:23.658230+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:26.662979+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:26.663001+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:26.676241+00:00 app[web.1]: 500
+2015-01-29T20:31:29.666757+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:29.666766+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:29.682247+00:00 app[web.1]: 500
+2015-01-29T20:31:32.667027+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:32.667062+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:32.684931+00:00 app[web.1]: 500
+2015-01-29T20:31:35.672262+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:35.672270+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:35.688999+00:00 app[web.1]: 500
+2015-01-29T20:31:38.677318+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:38.677327+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:38.692330+00:00 app[web.1]: 500
+2015-01-29T20:31:41.679154+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:41.679174+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:41.688530+00:00 app[web.1]: 500
+2015-01-29T20:31:44.683840+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:44.683873+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:44.695925+00:00 app[web.1]: 500
+2015-01-29T20:31:47.687263+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:47.687232+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:47.696662+00:00 app[web.1]: 500
+2015-01-29T20:31:50.691189+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:50.704500+00:00 app[web.1]: 500
+2015-01-29T20:31:50.691293+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:53.695540+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:53.695548+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:53.710497+00:00 app[web.1]: 500
+2015-01-29T20:31:56.697052+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:56.697061+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:56.709973+00:00 app[web.1]: 500
+2015-01-29T20:31:59.700233+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:31:59.700265+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:31:59.709756+00:00 app[web.1]: 500
+2015-01-29T20:32:02.704541+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:02.715985+00:00 app[web.1]: 500
+2015-01-29T20:32:02.704621+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:05.705415+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:05.720901+00:00 app[web.1]: 500
+2015-01-29T20:32:05.705425+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:08.707379+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:08.721493+00:00 app[web.1]: 500
+2015-01-29T20:32:08.707367+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:11.721170+00:00 app[web.1]: 500
+2015-01-29T20:32:11.711590+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:11.711586+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:14.711379+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:14.711388+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:14.726953+00:00 app[web.1]: 500
+2015-01-29T20:32:18.019319+00:00 heroku[api]: Deploy c10a323 by matt.laing13@gmail.com
+2015-01-29T20:32:18.019346+00:00 heroku[api]: Release v11 created by matt.laing13@gmail.com
+2015-01-29T20:32:17.713011+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:17.713003+00:00 app[web.1]: 679a0cf5-45db-4dca-99cf-57a96d67d24c
+2015-01-29T20:32:17.724278+00:00 app[web.1]: 500
+2015-01-29T20:32:19.865353+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T20:32:20.902147+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T20:32:18.439089+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T20:32:22.035924+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:32:24.231555+00:00 app[web.1]: Listening on port: 43320
+2015-01-29T20:32:24.493276+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:24.452357+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:32:27.222486+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:27.222624+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:27.265106+00:00 app[web.1]: 500
+2015-01-29T20:32:30.234152+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:30.259324+00:00 app[web.1]: 500
+2015-01-29T20:32:30.234118+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:33.238014+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:33.238002+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:33.283759+00:00 app[web.1]: 500
+2015-01-29T20:32:36.241582+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:36.241609+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:36.261251+00:00 app[web.1]: 500
+2015-01-29T20:32:39.245976+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:39.267932+00:00 app[web.1]: 500
+2015-01-29T20:32:39.246000+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:42.250068+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:42.282542+00:00 app[web.1]: 500
+2015-01-29T20:32:42.250082+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:45.250428+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:45.250451+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:45.266102+00:00 app[web.1]: 500
+2015-01-29T20:32:48.253859+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:48.253872
++00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:48.270328+00:00 app[web.1]: 500
+2015-01-29T20:32:51.258215+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:51.258355+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:51.276830+00:00 app[web.1]: 500
+2015-01-29T20:32:54.261332+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:54.261343+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:54.280221+00:00 app[web.1]: 500
+2015-01-29T20:32:57.265967+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:32:57.265981+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:32:57.286860+00:00 app[web.1]: 500
+2015-01-29T20:33:00.276023+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:33:00.358520+00:00 app[web.1]: 500
+2015-01-29T20:33:00.276034+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:03.300853+00:00 app[web.1]: 500
+2015-01-29T20:33:03.278887+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:03.278811+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:33:06.283811+00:00 app[web.1]: 4300b8f4-6a2c-4f8f-933f-8dce07c297dd
+2015-01-29T20:33:06.283827+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:06.335353+00:00 app[web.1]: 500
+2015-01-29T20:33:06.688538+00:00 heroku[router]: at=info method=POST path="//accept" host=quiet-garden-7794.herokuapp.com request_id=7bef3c3e-711f-46f3-9cf0-481decf83bb5 fwd="54.162.96.79" dyno=web.1 connect=1ms service=11ms status=200 bytes=182
+2015-01-29T20:33:06.683615+00:00 app[web.1]: 2015-01-29T20:33:06.683Z -> info: resource: abstract channel handler, action: accept, msg: not supported by this channel handler
+2015-01-29T20:33:06.683701+00:00 app[web.1]: JSON accepted
+2015-01-29T20:33:06.683730+00:00 app[web.1]: URL from tumblr.com
+2015-01-29T20:33:06.687464+00:00 app[web.1]: 2015-01-29T20:33:06.687Z -> info: [0mPOST //accept [32m200 [0m6.686 ms - 17[0m
+2015-01-29T20:33:07.320393+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=1d51d413-59b4-4356-9f5e-134da1b55df1 fwd="54.162.96.79" dyno=web.1 connect=2ms service=6ms status=200 bytes=230
+2015-01-29T20:33:07.316447+00:00 app[web.1]: 2015-01-29T20:33:07.316Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T20:33:07.318713+00:00 app[web.1]: 2015-01-29T20:33:07.318Z -> info: [0mPOST //deliver [32m200 [0m3.121 ms - 51[0m
+2015-01-29T20:33:07.318746+00:00 app[web.1]: Text..
+2015-01-29T20:33:07.330020+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T20:33:07.330022+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T20:33:07.318801+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T20:33:07.330012+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d,http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d has no method 'on'
+2015-01-29T20:33:07.330017+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T20:33:07.330019+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T20:33:07.330024+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:110:11)
+2015-01-29T20:33:07.330025+00:00 app[web.1]:     at /app/routes/route_handler.js:33:17
+2015-01-29T20:33:07.330027+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:33:07.330031+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:33:07.330029+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T20:33:07.330028+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T20:33:07.667525+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T20:33:07.667527+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T20:33:07.667529+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T20:33:07.667531+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T20:33:07.667532+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T20:33:07.667521+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T20:33:07.667524+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:112:85
+2015-01-29T20:33:07.667533+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T20:33:07.667535+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T20:33:07.667536+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T20:33:07.667538+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T20:33:07.666395+00:00 app[web.1]: 
+2015-01-29T20:33:08.396443+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T20:33:08.411817+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T20:33:08.412625+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T20:33:11.891632+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:33:14.276282+00:00 app[web.1]: Listening on port: 51010
+2015-01-29T20:33:14.482919+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:15.529087+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:33:17.263903+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:17.263938+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:17.307842+00:00 app[web.1]: 500
+2015-01-29T20:33:20.276456+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:20.276498+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:20.290006+00:00 app[web.1]: 500
+2015-01-29T20:33:23.281798+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:23.362435+00:00 app[web.1]: 500
+2015-01-29T20:33:23.285305+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:26.292812+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:26.305020+00:00 app[web.1]: 500
+2015-01-29T20:33:26.292894+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:29.331102+00:00 app[web.1]: 500
+2015-01-29T20:33:29.297147+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:29.297434+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:32.304483+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:32.316267+00:00 app[web.1]: 500
+2015-01-29T20:33:32.304472+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:35.306382+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:35.306393+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:35.321055+00:00 app[web.1]: 500
+2015-01-29T20:33:38.332862+00:00 app[web.1]: 500
+2015-01-29T20:33:38.308458+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:38.308466+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:41.310995+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:41.310987+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:41.327830+00:00 app[web.1]: 500
+2015-01-29T20:33:44.314059+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:44.325760+00:00 app[web.1]: 500
+2015-01-29T20:33:44.314253+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:47.316479+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:47.316470+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:47.336381+00:00 app[web.1]: 500
+2015-01-29T20:33:50.320468+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:50.320640+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:50.341537+00:00 app[web.1]: 500
+2015-01-29T20:33:53.324543+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:53.324529+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:53.351842+00:00 app[web.1]: 500
+2015-01-29T20:33:56.326367+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:56.326375+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:56.348187+00:00 app[web.1]: 500
+2015-01-29T20:33:59.331655+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:33:59.331661+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:33:59.348907+00:00 app[web.1]: 500
+2015-01-29T20:34:02.334329+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:02.360831+00:00 app[web.1]: 500
+2015-01-29T20:34:02.334338+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:05.340033+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:05.340098+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:05.361303+00:00 app[web.1]: 500
+2015-01-29T20:34:08.348550+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:08.365243+00:00 app[web.1]: 500
+2015-01-29T20:34:08.348615+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:11.352452+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:11.352520+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:11.363521+00:00 app[web.1]: 500
+2015-01-29T20:34:14.356567+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:14.356609+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:14.369886+00:00 app[web.1]: 500
+2015-01-29T20:34:17.359540+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:17.359702+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:17.376234+00:00 app[web.1]: 500
+2015-01-29T20:34:20.364887+00:00 app[web.1]: 1e05a66f-de8e-49b7-9027-ffef8364ed18
+2015-01-29T20:34:20.364896+00:00 app[web.1]: http://developer.kb.dexit.co/access/stores/Tumblr/query/?query=INSERT INTO feedback VALUES(1,12, 1,'name','message', 1)
+2015-01-29T20:34:20.381573+00:00 app[web.1]: 500
+2015-01-29T20:34:22.862817+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=c5fc3640-8761-411f-bca9-2692a77cdd23 fwd="54.162.96.79" dyno=web.1 connect=3ms service=17ms status=200 bytes=230
+2015-01-29T20:34:22.856209+00:00 app[web.1]: 2015-01-29T20:34:22.855Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T20:34:22.862701+00:00 app[web.1]: 2015-01-29T20:34:22.862Z -> info: [0mPOST //deliver [32m200 [0m10.300 ms - 51[0m
+2015-01-29T20:34:22.862746+00:00 app[web.1]: Text..
+2015-01-29T20:34:22.879735+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T20:34:22.879732+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T20:34:22.879739+00:00 app[web.1]:     at /app/routes/route_handler.js:33:17
+2015-01-29T20:34:22.879741+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:34:22.879742+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T20:34:22.879743+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T20:34:22.879745+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:34:22.879728+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d,http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d has no method 'on'
+2015-01-29T20:34:22.862822+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T20:34:22.879734+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T20:34:22.879737+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T20:34:22.879738+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:110:11)
+2015-01-29T20:34:23.206832+00:00 app[web.1]: 
+2015-01-29T20:34:23.207659+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T20:34:23.207661+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T20:34:23.207651+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:112:85
+2015-01-29T20:34:23.207655+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T20:34:23.207658+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T20:34:23.207652+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T20:34:23.207662+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29
+T20:34:23.207654+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T20:34:23.207657+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T20:34:23.207649+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T20:34:23.207664+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T20:34:24.164135+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T20:34:24.178589+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T20:37:13.037412+00:00 heroku[api]: Deploy 3571649 by matt.laing13@gmail.com
+2015-01-29T20:37:13.037412+00:00 heroku[api]: Release v12 created by matt.laing13@gmail.com
+2015-01-29T20:37:13.367530+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T20:37:16.014163+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:37:17.626929+00:00 app[web.1]: Listening on port: 3900
+2015-01-29T20:37:17.824853+00:00 app[web.1]: 4945e3b1-53f3-4721-ab7b-85726333affa
+2015-01-29T20:37:18.144779+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:37:20.617669+00:00 app[web.1]: 4945e3b1-53f3-4721-ab7b-85726333affa
+2015-01-29T20:37:20.686259+00:00 app[web.1]: Event Posted OK
+2015-01-29T20:37:23.422068+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=67ad83b4-6621-41f2-8659-4d028dd7ea88 fwd="54.162.96.79" dyno=web.1 connect=2ms service=35ms status=200 bytes=230
+2015-01-29T20:37:23.410907+00:00 app[web.1]: 2015-01-29T20:37:23.410Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T20:37:23.428073+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:37:23.428056+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T20:37:23.627722+00:00 app[web.1]: 4945e3b1-53f3-4721-ab7b-85726333affa
+2015-01-29T20:37:23.428059+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T20:37:23.416569+00:00 app[web.1]: 2015-01-29T20:37:23.416Z -> info: [0mPOST //deliver [32m200 [0m27.917 ms - 51[0m
+2015-01-29T20:37:23.416660+00:00 app[web.1]: Text..
+2015-01-29T20:37:23.416714+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T20:37:23.428053+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d,http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d has no method 'on'
+2015-01-29T20:37:23.428060+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T20:37:23.428062+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T20:37:23.428064+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:110:11)
+2015-01-29T20:37:23.428065+00:00 app[web.1]:     at /app/routes/route_handler.js:33:17
+2015-01-29T20:37:23.428067+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:37:23.428069+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T20:37:23.428071+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T20:37:23.752641+00:00 app[web.1]: 
+2015-01-29T20:37:23.753568+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T20:37:23.753574+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T20:37:23.753571+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:112:85
+2015-01-29T20:37:23.753575+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T20:37:23.753577+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T20:37:23.753585+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T20:37:23.753583+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T20:37:23.753572+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T20:37:23.753582+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T20:37:23.753579+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T20:37:23.753580+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T20:37:24.360346+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T20:37:24.375909+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T20:43:39.006845+00:00 heroku[api]: Deploy 4ce5591 by matt.laing13@gmail.com
+2015-01-29T20:43:39.006845+00:00 heroku[api]: Release v13 created by matt.laing13@gmail.com
+2015-01-29T20:43:39.188757+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T20:43:42.903573+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:43:45.442594+00:00 app[web.1]: Listening on port: 58987
+2015-01-29T20:43:45.728961+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:43:46.553351+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:43:48.432711+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:43:51.459365+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:43:54.464384+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:43:57.467609+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:44:00.476376+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:44:03.479092+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:44:06.437511+00:00 app[web.1]: 2015-01-29T20:44:06.436Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T20:44:06.442976+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=2073ab0e-35ce-4ff9-baac-63287213b3fd fwd="54.162.96.79" dyno=web.1 connect=2ms service=20ms status=200 bytes=230
+2015-01-29T20:44:06.446890+00:00 app[web.1]: 2015-01-29T20:44:06.446Z -> info: [0mPOST //deliver [32m200 [0m12.677 ms - 51[0m
+2015-01-29T20:44:06.466999+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T20:44:06.466993+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d,http://dexit.co/smartcontent/9526c715-a2e2-46b6-ad3a-ff15f20c0e0d has no method 'on'
+2015-01-29T20:44:06.446997+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T20:44:06.467004+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T20:44:06.467011+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T20:44:06.467014+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:44:06.467002+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T20:44:06.467010+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T20:44:06.467013+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T20:44:06.467007+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:111:11)
+2015-01-29T20:44:06.467008+00:00 app[web.1]:     at /app/routes/route_handler.js:33:17
+2015-01-29T20:44:06.480673+00:00 app[web.1]: e2525e5f-f66c-4636-b6de-efe426d22141
+2015-01-29T20:44:06.446950+00:00 app[web.1]: Text..
+2015-01-29T20:44:06.467005+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T20:44:06.783188+00:00 app[web.1]: 
+2015-01-29T20:44:06.788102+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T20:44:06.788107+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T20:44:06.788097+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T20:44:06.788100+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T20:44:06.788099+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T20:44:06.788103+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T20:44:06.788089+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T20:44:06.788095+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:113:85
+2015-01-29T20:44:06.788105+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T20:44:06.788108+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T20:44:06.788109+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T20:44:07.745690+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T20:44:07.746410+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T20:44:07.732562+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T20:44:13.509364+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T20:44:15.590262+00:00 app[web.1]: Listening on port: 57089
+2015-01-29T20:44:15.851948+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:15.823021+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T20:44:18.582332+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:21.594793+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:24.599724+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:27.602239+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:30.657372+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:33.658169+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:36.661913+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:39.672617+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:42.679970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:45.682443+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:48.686993+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:51.690012+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:54.693978+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:44:57.694797+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:00.699684+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:03.704386+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:06.706071+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:09.710006+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:12.713055+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:15.713959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:18.717979+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:21.719335+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:24.722913+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:27.725953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:30.729085+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:33.730243+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:36.736587+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:39.739659+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:42.744462+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:45.747089+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:48.749945+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:51.751044+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:54.753653+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:45:57.757948+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:00.760585+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:03.764723+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:06.769445+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:09.772839+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:12.785359+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:15.785987+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:18.790044+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:21.792344+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:24.793970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:27.797407+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:30.802482+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:33.813437+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:36.819562+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:39.826003+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:42.827630+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:45.830932+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:48.834369+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:51.836573+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:54.840158+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:46:57.841952+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:00.845884+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:03.849517+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:06.852359+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:09.853891+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:12.858824+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:15.861019+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:18.863600+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:21.867446+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:24.874213+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:27.881993+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:30.885363+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:33.889992+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:36.893198+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:39.893995+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:42.895625+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:45.900967+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:48.902668+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:51.905856+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:54.910688+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:47:57.914156+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:00.917333+00:00 app[w
+eb.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:03.934065+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:06.937979+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:09.938753+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:12.941941+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:15.945303+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:18.946468+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:21.950232+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:24.953594+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:27.957044+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:30.957963+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:33.961518+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:36.965971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:39.968380+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:42.969085+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:45.969950+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:48.974008+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:51.976208+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:54.981230+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:48:57.986045+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:00.987898+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:03.989980+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:06.993387+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:09.993959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:12.994572+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:15.998498+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:19.002715+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:22.007147+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:25.009946+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:28.011526+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:31.018115+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:34.018804+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:37.021959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:40.024616+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:43.027233+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:44.956165+00:00 app[web.1]: 2015-01-29T20:49:44.955Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T20:49:44.963366+00:00 app[web.1]: Toronto announcement:  Winner! Mary
+2015-01-29T20:49:44.968818+00:00 app[web.1]: http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+2015-01-29T20:49:44.963303+00:00 app[web.1]: 2015-01-29T20:49:44.963Z -> info: [0mPOST //deliver [32m200 [0m10.240 ms - 51[0m
+2015-01-29T20:49:44.963434+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/developer/img/torontoas2.jpg
+2015-01-29T20:49:44.962881+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=e8056a69-838d-4d5f-a2f6-f6da09cdd452 fwd="129.100.253.73" dyno=web.1 connect=19ms service=105ms status=200 bytes=230
+2015-01-29T20:49:45.641170+00:00 app[web.1]: ca9e74b6-d275-4472-be9c-e49257eabac5
+2015-01-29T20:49:46.030024+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:46.162405+00:00 app[web.1]: ca9e74b6-d275-4472-be9c-e49257eabac5
+2015-01-29T20:49:49.033964+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:52.037607+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:55.041994+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:49:58.045201+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:01.047177+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:04.049160+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:07.051437+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:10.055548+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:13.058912+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:16.061967+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:19.064101+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:22.065959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:25.069236+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:28.070755+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:31.075425+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:34.077749+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:37.082469+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:40.085953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:43.089957+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:46.094003+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:49.096803+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:52.102945+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:55.117932+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:50:58.121497+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:01.123489+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:04.126005+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:07.128027+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:10.130569+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:13.134792+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:16.137360+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:19.142007+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:22.145989+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:25.146432+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:28.149977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:31.151739+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:34.153975+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:37.157135+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:40.157955+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:43.158959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:46.164227+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:49.165990+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:52.169577+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:55.173942+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:51:58.177839+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:01.181953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:04.185495+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:07.190010+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:07.208214+00:00 app[web.1]: Event Posted OK
+2015-01-29T20:52:10.193819+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:13.197983+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:16.200088+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:19.201972+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:22.204511+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:25.209188+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:28.209977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:31.213698+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:34.217989+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:37.221118+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:40.222307+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:43.224396+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:46.225947+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:49.229500+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:52.233519+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:55.235104+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:52:58.236277+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:01.237963+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:04.241211+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:07.243180+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:10.244560+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:13.249779+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:16.254806+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:19.257991+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:22.261669+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:25.265955+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:28.269486+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:31.271874+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:34.274719+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:37.277036+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:40.279586+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:43.282530+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:46.285970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:49.288936+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:52.289952+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:55.291580+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:53:58.293956+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:01.296906+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:04.297961+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:07.300766+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:10.305088+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:13.305977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:16.310100+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:19.310782+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:22.314002+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:25.316082+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:28.318238+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:31.326482+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:34.328864+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:37.334033+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:40.338182+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:43.340884+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:46.343848+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:49.349957+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:52.352979+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:55.356766+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:54:58.361863+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:01.375015+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:04.379089+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:07.381946+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:10.383720+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:13.385948+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:16.389329+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:19.411810+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:22.418372+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:25.419243+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:28.422817+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:31.430009+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:34.445118+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:37.477064+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:40.482940+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:43.485956+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:46.489311+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:49.494672+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:52.497971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:55.500267+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:55:58.501971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:01.507684+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:04.510481+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:07.513968+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:10.515181+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:13.518064+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:16.524001+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:19.529093+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:22.529968+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:25.531843+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:28.534516+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:31.539030+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:34.541978+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:37.542596+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:40.545985+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:43.548418+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:46.573707+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:49.578005+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:52.581141+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:55.581959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:56:58.584865+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:01.588617+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:04.592093+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:07.593983+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:10.595970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:13.596575+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:16.601449+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:19.603484+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:22.
+606314+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:25.609444+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:28.612674+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:31.633542+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:34.644178+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:37.650023+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:40.655787+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:43.659728+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:46.661984+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:49.662864+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:52.665951+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:55.669224+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:57:58.672513+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:01.676474+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:04.681462+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:07.684533+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:10.689864+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:13.692071+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:16.693668+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:19.698076+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:22.700105+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:25.701783+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:28.705977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:31.709975+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:34.713414+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:37.718190+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:40.721977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:43.723049+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:46.727139+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:49.729969+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:52.733779+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:55.738376+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:58:58.741734+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:01.745965+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:04.748788+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:07.752846+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:10.754696+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:13.762219+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:16.765984+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:19.769998+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:22.773111+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:25.773979+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:28.776143+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:31.779733+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:34.781938+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:37.784025+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:40.791872+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:43.806266+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:46.807652+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:49.825954+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:52.829834+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:55.833938+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T20:59:58.837082+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:01.840822+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:04.846463+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:07.849977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:10.854361+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:13.857765+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:16.861951+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:19.862808+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:22.865957+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:25.866877+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:28.869945+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:31.873657+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:34.875933+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:37.877953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:40.880906+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:43.882505+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:46.885063+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:49.890127+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:52.893993+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:55.897250+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:00:58.897985+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:01.900968+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:02.000562+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:04.901996+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:07.905077+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:10.906625+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:13.909228+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:16.910157+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:19.914011+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:22.918617+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:25.921977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:28.925625+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:31.929721+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:34.937969+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:37.940237+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:38.021939+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:40.941958+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:41.484513+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:43.944221+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:44.047275+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:46.948811+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:47.080433+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:49.952876+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:50.055269+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:01:52.956023+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:55.959144+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:01:58.960735+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:01.962947+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:04.966255+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:07.967596+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:10.971740+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:13.974317+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:16.982163+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:19.986014+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:22.988525+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:25.990231+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:28.993970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:31.997909+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:35.002021+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:38.004073+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:38.024553+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:02:41.005511+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:44.009960+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:47.013983+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:50.019330+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:50.062575+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:02:53.025960+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:53.098817+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:02:56.030001+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:02:56.092514+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:02:59.033971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:02.036521+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:05.040062+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:08.042150+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:11.045072+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:14.046073+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:17.047829+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:20.051732+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:23.054171+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:26.057165+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:29.057968+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:32.059086+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:35.061946+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:38.065360+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:41.070119+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:44.073974+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:47.078087+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:50.087821+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:53.089953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:56.093387+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:03:59.106087+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:02.110000+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:05.113753+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:08.118050+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:11.123764+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:14.140769+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:17.143472+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:20.146579+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:23.150167+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:26.155234+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:29.190124+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:32.193075+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:35.197033+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:38.197977+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:41.200580+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:44.204982+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:47.205964+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:50.209244+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:53.213971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:53.342160+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:04:56.218089+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:04:59.227431+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:02.232770+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:05.237988+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:08.241081+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:11.241975+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:14.245917+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:17.250026+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:20.261032+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:23.264492+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:26.268045+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:29.271945+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:32.273670+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:35.282074+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:38.283306+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:41.289973+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:44.292750+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:47.295480+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:50.297971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:53.299086+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:56.301971+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:05:59.302491+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:02.305972+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:05.309990+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:08.313641+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:11.318004+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:14.322258+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:17.323159+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:20.325958+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:23.329211+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:23.350192+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:06:26.329987+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:29.334041+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:32.341586+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:32.361067+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:06:35.345975+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:38.349498+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:41.354212+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:41.369455+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:06:44.358101+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:47.361616+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:50.365950+00:00 app[web.1]: e988742
+7-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:53.366350+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:53.422427+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:06:56.369946+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:06:59.373056+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:02.375689+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:02.398633+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:07:05.378005+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:08.381105+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:11.385985+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:11.402334+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:07:14.390024+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:17.393370+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:20.398015+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:23.399741+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:23.415812+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:07:26.402490+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:29.404237+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:32.405982+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:32.426514+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:07:35.408914+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:38.409962+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:41.411775+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:41.431020+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:07:44.414706+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:47.419388+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:50.424397+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:53.428406+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:56.433710+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:59.437964+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:07:59.453461+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:08:02.440940+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:05.445959+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:08.448734+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:11.460659+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:14.465012+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:17.469245+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:20.472359+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:23.477378+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:26.480396+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:29.483021+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:32.485984+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:35.488568+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:38.497337+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:41.500247+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:44.501944+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:47.505296+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:50.509543+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:53.512369+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:53.631216+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:08:56.517562+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:08:59.520214+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:02.521953+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:05.524802+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:05.590620+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:09:08.526138+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:11.530457+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:14.535250+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:14.550415+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:09:17.537179+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:20.538261+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:23.543417+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:26.546688+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:29.549991+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:32.553979+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:35.555954+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:38.569353+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:41.561048+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:44.562528+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:47.566262+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:50.569265+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:53.574006+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:56.574610+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:09:59.582525+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:02.586447+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:05.593790+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:08.595674+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:11.597693+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:14.601976+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:17.605898+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:20.610022+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:23.612945+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:26.614043+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:29.616655+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:32.619579+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:35.621982+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:38.622782+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:41.626634+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:44.629434+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:47.630786+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:50.633946+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:53.637046+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:56.638037+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:10:59.638708+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:02.642669+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:02.666395+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:11:05.645942+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:08.648111+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:11.653966+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:14.655012+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:17.657255+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:20.657947+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:23.658153+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:26.661430+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:29.661147+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:32.662827+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:35.665956+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:38.666658+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:41.671817+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:44.674072+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:47.676495+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:50.680372+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:53.681963+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:56.685612+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:11:59.689949+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:02.692267+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:05.697130+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:08.701970+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:11.704047+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:14.705942+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:14.731006+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:12:17.709317+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:20.709982+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:23.713695+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:26.716450+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:29.718515+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:32.724418+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:35.729804+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:38.733642+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:41.737965+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:44.741669+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:47.746350+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:50.749613+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:53.753942+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:56.757128+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:12:56.824625+00:00 app[web.1]: Event Posted OK
+2015-01-29T21:12:59.759493+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:02.761949+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:05.765379+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:08.766043+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:11.767092+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:14.776033+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:17.778003+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:20.779328+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:23.782058+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:26.785455+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:29.789963+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:32.793905+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:35.797969+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:38.801221+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:41.801939+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:44.803276+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:47.804591+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:50.809513+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:53.812393+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:56.819827+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:13:59.821954+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:02.825316+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:05.829981+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:08.833182+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:11.833741+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:14.837938+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:17.840960+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:20.841954+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:23.843904+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:26.845991+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:29.846176+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:32.848470+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:35.849982+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:38.853939+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:41.855575+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:44.859515+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:45.980241+00:00 heroku[api]: Deploy c6e6b60 by matt.laing13@gmail.com
+2015-01-29T21:14:45.980241+00:00 heroku[api]: Release v14 created by matt.laing13@gmail.com
+2015-01-29T21:14:46.477585+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T21:14:47.862033+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:49.325514+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T21:14:50.644714+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T21:14:50.865892+00:00 app[web.1]: e9887427-f987-4969-87bf-d0d2aa333953
+2015-01-29T21:14:51.363278+00:00 app[web.1]: Listening on port: 6433
+2015-01-29T21:14:52.352882+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T21:14:51.628599+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T21:14:53.448934+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T21:14:56.495157+00:00 app[web.1]: b8eb229e-b20f-47a2-80ce-5b2095ee3fae
+2015-01-29T21:15:01.588295+00:00 app[web.1]: [ { startDate: '2015-01-29T21:15:08.000Z',
+2015-01-29T21:15:01.573705+00:00 app[web.1]: 2015-01-29T21:15:01.573Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T21:15:01.588304+00:00 app[web.1]:      { startTime: '2015-01-29T21:15:08.000Z',
+2015-01-29T21:15:01.588301+00:00 app[web.1]:     endDate: '2065-01-29T21:15:08.000Z',
+2015-01-29T21:15:01.588303+00:00 app[web.1]:     time: 
+2015-01-29T21:15:01.588307+00:00 app[web.1]:     scObj: 
+2015-01-29T21:15:01.588341+00:00 app[web.1]:        property: [Object],
+2015-01-29T21:15:01.588310+00:00 app[web.1]:      { scm: [Object],
+2015-01-29T21:15:01.588315+00:00 app[web.1]:        assignable: [Object],
+2015-01-29T21:15:01.588317+00:00 app[web.1]:        url: 'http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/c5117298-c8e7-456d-a6a1-2ee78a4142d3',
+2015-01-29T21:15:01.588337+00:00 app[web.1]:        id: 'c5117298-c8e7-456d-a6a1-2ee78a4142d3',
+2015-01-29T21:15:01.588339+00:00 app[web.1]:        kind: 'smartcontent#object',
+2015-01-29T21:15:01.588312+00:00 app[web.1]:        scObject: [Object],
+2015-01-29T21:15:01.588313+00:00 app[web.1]:        repo: 'techiesindev',
+2015-01-29T21:15:01.588344+00:00 app[web.1]:        aevent: [],
+2015-01-29T21:15:01.588306+00:00 app[web.1]:        endTime: '2065-01-29T21:15:08.000Z' },
+2015-01-29T21:15:01.588345+00:00 app[web.1]:        layout: [Object],
+2015-01-29T21:15:01.588342+00:00 app[web.1]:        behaviour: [Object],
+2015-01-29T21:15:01.588347+00:00 app[web.1]:        
+decision: [],
+2015-01-29T21:15:01.588353+00:00 app[web.1]:        audio: [],
+2015-01-29T21:15:01.588356+00:00 app[web.1]:        animation: [],
+2015-01-29T21:15:01.588348+00:00 app[web.1]:        intelligence: [Object],
+2015-01-29T21:15:01.588349+00:00 app[web.1]:        text: [Object],
+2015-01-29T21:15:01.588351+00:00 app[web.1]:        textinput: [],
+2015-01-29T21:15:01.588352+00:00 app[web.1]:        link: [],
+2015-01-29T21:15:01.588358+00:00 app[web.1]:        video: [] },
+2015-01-29T21:15:01.588361+00:00 app[web.1]:     order: [],
+2015-01-29T21:15:01.588364+00:00 app[web.1]:     layout: '<html><body>\n\n\n        <div class="mmElementsPanel">\n            <div data-bind="foreach: $root.ice4m.dcmMain.layoutVM.listOfItems">\n\n                \n                \n                \n                \n                \n\n            \n\n                \n                \n                \n                <span style="z-index: 3; position: relative;" class="editableTextBox editable editable-click ui-draggable" data-type="text" data-bind="editable: content().content, editableOptions:{url: function(content){$root.ice4m.dcmMain.layoutVM.editText(content)}, name: tag, onblur:&apos;ignore&apos;}, style:{position: &apos;relative&apos;, left: leftPos+&apos;%&apos;, top: topPos+&apos;%&apos;}, attr:{id: id, &apos;data-mm-tag&apos;: tag}, text: content().content, dragMM: {value:$data}" id="2" data-mm-tag="mm-2">Text..</span>\n                \n\n            </div>\n        </div>\n        <div data-bind="foreach: $root.ice4m.dcmMain.layoutVM.listOfItems">\n            \n                \n\n                    \n                    \n                    <span><img class="bgImage img-responsive ui-droppable" data-bind="drop:{value: $root.ice4m.dcmMain.layoutVM.selectedElementBG.bind(id, $data)}, attr:{id: id, src: src().src, &apos;data-mm-tag&apos;: tag}" id="0" src="http://dam.dexit.co.s3.amazonaws.com/knust/img/1009223_10151640822996893_497629588_o.jpg" data-mm-tag="mm-0">\n                        \n                    </span>\n                    \n                \n            \n            \n        \n            \n            \n        </div>\n    </body></html>',
+2015-01-29T21:15:01.588355+00:00 app[web.1]:        image: [Object],
+2015-01-29T21:15:01.588359+00:00 app[web.1]:     params: [ [Object], [Object] ],
+2015-01-29T21:15:01.588367+00:00 app[web.1]:     multimedia: { text: [Object], image: [Object], video: [], audio: [], link: [] } } ]
+2015-01-29T21:15:01.588365+00:00 app[web.1]:     layoutId: '10dbf95c-2a20-49dc-a3b1-6a6cfdd8168a',
+2015-01-29T21:15:01.588698+00:00 app[web.1]: { url: 'http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/569aac98-288a-406d-ab9f-563d626cfaa0',
+2015-01-29T21:15:01.588703+00:00 app[web.1]:   property: 
+2015-01-29T21:15:01.588700+00:00 app[web.1]:   id: '569aac98-288a-406d-ab9f-563d626cfaa0',
+2015-01-29T21:15:01.588702+00:00 app[web.1]:   kind: 'multimediabody#image',
+2015-01-29T21:15:01.588705+00:00 app[web.1]:    { isAssignedTo: 
+2015-01-29T21:15:01.588706+00:00 app[web.1]:       [ 'http://dexit.co/smartcontent/c5117298-c8e7-456d-a6a1-2ee78a4142d3',
+2015-01-29T21:15:01.588708+00:00 app[web.1]:         'http://dexit.co/smartcontent/c5117298-c8e7-456d-a6a1-2ee78a4142d3' ],
+2015-01-29T21:15:01.588713+00:00 app[web.1]:      class: '',
+2015-01-29T21:15:01.588711+00:00 app[web.1]:      context: 'device',
+2015-01-29T21:15:01.588715+00:00 app[web.1]:      tag: 'mm-0',
+2015-01-29T21:15:01.588718+00:00 app[web.1]:      alt: '',
+2015-01-29T21:15:01.588716+00:00 app[web.1]:      location: 'http://dam.dexit.co.s3.amazonaws.com/knust/img/1009223_10151640822996893_497629588_o.jpg',
+2015-01-29T21:15:01.588719+00:00 app[web.1]:      ismap: 'false',
+2015-01-29T21:15:01.588722+00:00 app[web.1]:      width: '',
+2015-01-29T21:15:01.588723+00:00 app[web.1]:      height: '' } }
+2015-01-29T21:15:01.589580+00:00 app[web.1]: { url: 'http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d4957015-48fe-42d5-8302-43ad88c749b0',
+2015-01-29T21:15:01.588720+00:00 app[web.1]:      usemap: 'false',
+2015-01-29T21:15:01.588709+00:00 app[web.1]:      name: 'dcmIMage',
+2015-01-29T21:15:01.588712+00:00 app[web.1]:      identity: '',
+2015-01-29T21:15:01.589583+00:00 app[web.1]:   id: 'd4957015-48fe-42d5-8302-43ad88c749b0',
+2015-01-29T21:15:01.589586+00:00 app[web.1]:   property: 
+2015-01-29T21:15:01.589585+00:00 app[web.1]:   kind: 'multimediabody#text',
+2015-01-29T21:15:01.589588+00:00 app[web.1]:    { isAssignedTo: 'http://dexit.co/smartcontent/c5117298-c8e7-456d-a6a1-2ee78a4142d3',
+2015-01-29T21:15:01.589598+00:00 app[web.1]:      location: '',
+2015-01-29T21:15:01.589591+00:00 app[web.1]:      content: 'Text..',
+2015-01-29T21:15:01.589589+00:00 app[web.1]:      name: 'Text..',
+2015-01-29T21:15:01.598751+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T21:15:01.589599+00:00 app[web.1]:      disabled: 'false',
+2015-01-29T21:15:01.589689+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/1009223_10151640822996893_497629588_o.jpg
+2015-01-29T21:15:01.589592+00:00 app[web.1]:      context: 'device',
+2015-01-29T21:15:01.589593+00:00 app[web.1]:      identity: '',
+2015-01-29T21:15:01.598773+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T21:15:01.598771+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T21:15:01.598777+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:115:11)
+2015-01-29T21:15:01.589601+00:00 app[web.1]:      readonly: 'false' } }
+2015-01-29T21:15:01.589627+00:00 app[web.1]: Text..
+2015-01-29T21:15:01.598744+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/c5117298-c8e7-456d-a6a1-2ee78a4142d3,http://dexit.co/smartcontent/c5117298-c8e7-456d-a6a1-2ee78a4142d3 has no method 'on'
+2015-01-29T21:15:01.598785+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:15:01.598780+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:15:01.598783+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T21:15:01.598782+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T21:15:01.598775+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T21:15:01.589596+00:00 app[web.1]:      tag: 'mm-2',
+2015-01-29T21:15:01.589595+00:00 app[web.1]:      class: '',
+2015-01-29T21:15:01.598778+00:00 app[web.1]:     at /app/routes/route_handler.js:33:17
+2015-01-29T21:15:01.585280+00:00 app[web.1]: 2015-01-29T21:15:01.585Z -> info: [0mPOST //deliver [32m200 [0m14.829 ms - 51[0m
+2015-01-29T21:15:01.919512+00:00 app[web.1]: 
+2015-01-29T21:15:01.920863+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:117:85
+2015-01-29T21:15:01.920919+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T21:15:01.920921+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T21:15:01.920883+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T21:15:01.920886+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T21:15:01.920866+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T21:15:01.920889+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T21:15:01.920917+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T21:15:01.920859+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T21:15:01.920891+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T21:15:01.920915+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T21:15:01.631873+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=5b5c839a-eb7c-44b0-851c-7403d0bd7191 fwd="54.162.96.79" dyno=web.1 connect=37ms service=47ms status=200 bytes=230
+2015-01-29T21:15:02.751519+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T21:15:02.778439+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T21:15:02.787459+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T21:15:06.352454+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T21:15:09.078215+00:00 app[web.1]: Listening on port: 52255
+2015-01-29T21:15:09.337369+00:00 app[web.1]: 01e9bb36-7633-4b28-8695-89104405e727
+2015-01-29T21:15:09.668648+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T21:22:00.086380+00:00 heroku[api]: Deploy 523c876 by matt.laing13@gmail.com
+2015-01-29T21:22:00.086380+00:00 heroku[api]: Release v15 created by matt.laing13@gmail.com
+2015-01-29T21:22:00.181724+00:00 heroku[web.1]: State changed from up to starting
+2015-01-29T21:22:02.801448+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T21:22:03.159866+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-29T21:22:05.054866+00:00 app[web.1]: Listening on port: 28611
+2015-01-29T21:22:05.230081+00:00 heroku[web.1]: Process exited with status 143
+2015-01-29T21:22:05.243666+00:00 app[web.1]: 8408696a-791f-4f60-bdd4-371f9e26f326
+2015-01-29T21:22:09.227116+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=31061531-54c7-4b8d-8305-6273e9a0f65b fwd="54.162.96.79" dyno=web.1 connect=0ms service=33ms status=200 bytes=230
+2015-01-29T21:22:09.212669+00:00 app[web.1]: {"params":{"channel":{"name":"Tumblr","description":"channel_instance","type":"Tumblr","url":"https://www.tumblr.com/blog/squirrellymcgee","id":"2861","location":"c0305291-309e-4b2f-bc0a-a758df209b64","state":"active"},"device":"f12e9c84-6cb0-4a84-a68e-e15ef2023ae9","schedule":"ab084ae8-cbb1-4ccc-a6e1-5d2efb40113c","touchpoint":"f12e9c84-6cb0-4a84-a68e-e15ef2023ae9"},"playlist":[{"startDate":"2015-01-29T21:22:15.000Z","endDate":"2065-01-29T21:22:15.000Z","time":{"startTime":"2015-01-29T21:22:15.000Z","endTime":"2065-01-29T21:22:15.000Z"},"scObj":{"scm":{"behaviour":{},"intelligence":{}},"scObject":{"assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"repo":"techiesindev","assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Dele
+te Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"params":[{"key":"key","value":"1"},{"key":"layout","value":"b00abed5-3465-42dc-b47a-54c349b15a26"}],"order":[],"layout":"<html><body>\n\n\n        <div class=\"mmElementsPanel\">\n            <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n\n                \n                \n                \n                \n                \n\n            \n\n                \n                \n                \n                <span style=
+2015-01-29T21:22:09.212669+00:00 app[web.1]: \"z-index: 3; position: relative;\" class=\"editableTextBox editable editable-click ui-draggable\" data-type=\"text\" data-bind=\"editable: content().content, editableOptions:{url: function(content){$root.ice4m.dcmMain.layoutVM.editText(content)}, name: tag, onblur:&apos;ignore&apos;}, style:{position: &apos;relative&apos;, left: leftPos+&apos;%&apos;, top: topPos+&apos;%&apos;}, attr:{id: id, &apos;data-mm-tag&apos;: tag}, text: content().content, dragMM: {value:$data}\" id=\"2\" data-mm-tag=\"mm-2\">Text..</span>\n                \n\n            </div>\n        </div>\n        <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n            \n                \n\n                    \n                    \n                    <span><img class=\"bgImage img-responsive ui-droppable\" data-bind=\"drop:{value: $root.ice4m.dcmMain.layoutVM.selectedElementBG.bind(id, $data)}, attr:{id: id, src: src().src, &apos;data-mm-tag&apos;: tag}\" id=\"0\" src=\"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg\" data-mm-tag=\"mm-0\">\n                        \n                    </span>\n                    \n                \n            \n            \n        \n            \n            \n        </div>\n    </body></html>","layoutId":"b00abed5-3465-42dc-b47a-54c349b15a26","multimedia":{"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"video":[],"audio":[],"link":[]}}]}
+2015-01-29T21:22:09.258174+00:00 app[web.1]: 2015-01-29T21:22:09.258Z -> info: [0mPOST //deliver [32m200 [0m51.906 ms - 51[0m
+2015-01-29T21:22:09.260179+00:00 app[web.1]: [{"startDate":"2015-01-29T21:22:15.000Z","endDate":"2065-01-29T21:22:15.000Z","time":{"startTime":"2015-01-29T21:22:15.000Z","endTime":"2065-01-29T21:22:15.000Z"},"scObj":{"scm":{"behaviour":{},"intelligence":{}},"scObject":{"assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"repo":"techiesindev","assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"params":[{"key":"key","value":"1"},{"key":"layout","value":"b00abed5-3465-42dc-b47a-54c349b15a26"}],"order":[],"layout":"<html><body>\n\n\n        <div class=\"mmElementsPanel\">\n            <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n\n                \n                \n                \n                \n                \n\n            \n\n                \n                \n                \n                <span style=\"z-index: 3; position: relative;\" class=\"editableTextBox editable editable-click ui-draggable\" data-type=\"text\" data-bind=\"editable: content().content, editableOptions:{url: function(content){$root.ice4m.dcmMain.layoutVM.editText(content)}, name: tag, onblur:&apos;ignore&apos;}, style:{position: &apos;relative&apos;, left: leftPos+&apos;%&apos;, top: topPos+&apos;%&apos;}
+2015-01-29T21:22:09.217367+00
+:00 app[web.1]: 2015-01-29T21:22:09.216Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T21:22:09.260182+00:00 app[web.1]: Text..
+2015-01-29T21:22:09.278000+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1,http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1 has no method 'on'
+2015-01-29T21:22:09.278007+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T21:22:09.260179+00:00 app[web.1]: , attr:{id: id, &apos;data-mm-tag&apos;: tag}, text: content().content, dragMM: {value:$data}\" id=\"2\" data-mm-tag=\"mm-2\">Text..</span>\n                \n\n            </div>\n        </div>\n        <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n            \n                \n\n                    \n                    \n                    <span><img class=\"bgImage img-responsive ui-droppable\" data-bind=\"drop:{value: $root.ice4m.dcmMain.layoutVM.selectedElementBG.bind(id, $data)}, attr:{id: id, src: src().src, &apos;data-mm-tag&apos;: tag}\" id=\"0\" src=\"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg\" data-mm-tag=\"mm-0\">\n                        \n                    </span>\n                    \n                \n            \n            \n        \n            \n            \n        </div>\n    </body></html>","layoutId":"b00abed5-3465-42dc-b47a-54c349b15a26","multimedia":{"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"video":[],"audio":[],"link":[]}}]
+2015-01-29T21:22:09.260204+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T21:22:09.278010+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T21:22:09.278013+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T21:22:09.278016+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T21:22:09.278018+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:113:11)
+2015-01-29T21:22:09.278019+00:00 app[web.1]:     at /app/routes/route_handler.js:34:17
+2015-01-29T21:22:09.278021+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:22:09.278029+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T21:22:09.278031+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T21:22:09.278032+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:22:09.609650+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T21:22:09.609653+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:115:85
+2015-01-29T21:22:09.609654+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T21:22:09.609656+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T21:22:09.609657+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T21:22:09.609659+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T21:22:09.609660+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T21:22:09.609661+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T21:22:09.608532+00:00 app[web.1]: 
+2015-01-29T21:22:09.609663+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T21:22:09.609664+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T21:22:09.609665+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T21:22:10.683396+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T21:22:10.665195+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T21:22:05.254634+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T21:26:33.799252+00:00 heroku[api]: Deploy 315dd4e by matt.laing13@gmail.com
+2015-01-29T21:26:33.799284+00:00 heroku[api]: Release v16 created by matt.laing13@gmail.com
+2015-01-29T21:26:34.137290+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T21:26:36.836893+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T21:26:38.581338+00:00 app[web.1]: Listening on port: 39385
+2015-01-29T21:26:38.814924+00:00 app[web.1]: 94f53969-449d-4f5a-8890-b0fedbafb99e
+2015-01-29T21:26:39.190357+00:00 heroku[web.1]: State changed from starting to up
+2015-01-29T21:27:32.848002+00:00 heroku[router]: at=info method=POST path="//deliver" host=quiet-garden-7794.herokuapp.com request_id=f833234b-7281-4f21-951a-b16a750b7759 fwd="54.162.96.79" dyno=web.1 connect=1ms service=17ms status=200 bytes=230
+2015-01-29T21:27:32.845506+00:00 app[web.1]: \"z-index: 3; position: relative;\" class=\"editableTextBox editable editable-click ui-draggable\" data-type=\"text\" data-bind=\"editable: content().content, editableOptions:{url: function(content){$root.ice4m.dcmMain.layoutVM.editText(content)}, name: tag, onblur:&apos;ignore&apos;}, style:{position: &apos;relative&apos;, left: leftPos+&apos;%&apos;, top: topPos+&apos;%&apos;}, attr:{id: id, &apos;data-mm-tag&apos;: tag}, text: content().content, dragMM: {value:$data}\" id=\"2\" data-mm-tag=\"mm-2\">Text..</span>\n                \n\n            </div>\n        </div>\n        <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n            \n                \n\n                    \n                    \n                    <span><img class=\"bgImage img-responsive ui-droppable\" data-bind=\"drop:{value: $root.ice4m.dcmMain.layoutVM.selectedElementBG.bind(id, $data)}, attr:{id: id, src: src().src, &apos;data-mm-tag&apos;: tag}\" id=\"0\" src=\"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg\" data-mm-tag=\"mm-0\">\n                        \n                    </span>\n                    \n                \n            \n            \n        \n            \n            \n        </div>\n    </body></html>","layoutId":"b00abed5-3465-42dc-b47a-54c349b15a26","multimedia":{"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"video":[],"audio":[],"link":[]}}]}
+2015-01-29T21:27:32.853069+00:00 app[web.1]: 2015-01-29T21:27:32.852Z -> info: [0mPOST //deliver [32m200 [0m10.438 ms - 51[0m
+2015-01-29T21:27:32.845506+00:00 app[web.1]: {"params":{"channel":{"name":"Tumblr","description":"channel_instance","type":"Tumblr","url":"https://www.tumblr.com/blog/squirrellymcgee","id":"2861","location":"c0305291-309e-4b2f-bc0a-a758df209b64","state":"active"},"device":"f12e9c84-6cb0-4a84-a68e-e15ef2023ae9","schedule":"1f5ebd65-b194-4328-8be5-16dc23848bc9","touchpoint":"f12e9c84-6cb0-4a84-a68e-e15ef2023ae9"},"playlist":[{"startDate":"2015-01-29T21:27:38.000Z","endDate":"2065-01-29T21:27:38.000Z","time":{"startTime":"2015-01-29T21:27:38.000Z","endTime":"2065-01-29T21:27:38.000Z"},"scObj":{"scm":{"behaviour":{},"intelligence":{}},"scObject":{"assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"repo":"techiesindev","assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","loc
+ation":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"params":[{"key":"key","value":"1"},{"key":"layout","value":"b00abed5-3465-42dc-b47a-54c349b15a26"}],"order":[],"layout":"<html><body>\n\n\n        <div class=\"mmElementsPanel\">\n            <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n\n                \n                \n                \n                \n                \n\n            \n\n                \n                \n                \n                <span style=
+2015-01-29T21:27:32.847470+00:00 app[web.1]: 2015-01-29T21:27:32.847Z -> info: resource: abstract channel handler, action: deliver, msg: not supported by this channel handler
+2015-01-29T21:27:32.861405+00:00 app[web.1]: [{"startDate":"2015-01-29T21:27:38.000Z","endDate":"2065-01-29T21:27:38.000Z","time":{"startTime":"2015-01-29T21:27:38.000Z","endTime":"2065-01-29T21:27:38.000Z"},"scObj":{"scm":{"behaviour":{},"intelligence":{}},"scObject":{"assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"repo":"techiesindev","assignable":["smartcontentcontainer","smartcontent"],"url":"http://developer.scc.dexit.co/repos/techiesindev/smartcontent/object/9ec04921-79d4-4cad-92e8-ac421f06a5e1","id":"9ec04921-79d4-4cad-92e8-ac421f06a5e1","kind":"smartcontent#object","property":{"isAssignedTo":"http://dexit.co/smartcontent/undefined","class":"sc","name":"test"},"behaviour":[{"scope":"system","id":"system_behaviour_create_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"POST","method":"POST","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule"}},{"scope":"system","id":"system_behaviour_update_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"PUT","method":"PUT","name":"Create Schedule","header":{"Content-Type":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_delete_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"DELETE","method":"DELETE","name":"Delete Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_retrieve_schedule","kind":"smartcontent#behaviour","property":{"args":"","context":"","type":"service","action":"GET","method":"GET","name":"Retrieve Schedule","header":{"accept":"application/json"},"body":"null","location":"02a86726-532c-428b-9648-2390ee3124ec","path_template":"/schedule/:id"}},{"scope":"system","id":"system_behaviour_create_monitor","kind":"smartcontent#behaviour","property":{"args":["config"],"context":"Device","type":"function","name":"createMonitor","action":"createMonitor","location":"dexit.scp.device.monitor"}},{"scope":"system","id":"system_behaviour_retrieve_feedback","kind":"smartcontent#behaviour","property":{"args":[":channel=user",":post_id={persistence(:scheduleId,:channel).data.data.id}"],"context":"","type":"service","action":"POST","method":"POST","name":"Retrieve Feedback","header":{"Content-Type":"application/json"},"body":"{ \"postId\":\":post_id\", \"channel\":{\"id\":\":channel\"} }","location":"retrieve_feedback","path_template":"/"}}],"aevent":[],"layout":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/layout/b00abed5-3465-42dc-b47a-54c349b15a26","id":"b00abed5-3465-42dc-b47a-54c349b15a26","kind":"smartcontent#layout","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"}}],"decision":[],"intelligence":[{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/persistence","id":"persistence","kind":"intelligence#concept","property":{"location":"persistence","name":"persistence","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"touchpoint","kind":"intelligence#concept","property":{"location":"touchpoint","name":"touchpoint","type":"system"}},{"url":"http://scc.latest.dexit.co/repos/{repoName}/intelligence/concept/touchpoint","id":"location","kind":"intelligence#concept","property":{"location":"location","name":"location","type":"system"}}],"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"textinput":[],"link":[],"audio":[],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"animation":[],"video":[]},"params":[{"key":"key","value":"1"},{"key":"layout","value":"b00abed5-3465-42dc-b47a-54c349b15a26"}],"order":[],"layout":"<html><body>\n\n\n        <div class=\"mmElementsPanel\">\n            <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n\n                \n                \n                \n                \n                \n\n            \n\n                \n                \n                \n                <span style=\"z-index: 3; position: relative;\" class=\"editableTextBox editable editable-click ui-draggable\" data-type=\"text\" data-bind=\"editable: content().content, editableOptions:{url: function(content){$root.ice4m.dcmMain.layoutVM.editText(content)}, name: tag, onblur:&apos;ignore&apos;}, style:{position: &apos;relative&apos;, left: leftPos+&apos;%&apos;, top: topPos+&apos;%&apos;}
+2015-01-29T21:27:32.861405+00:00 app[web.1]: , attr:{id: id, &apos;data-mm-tag&apos;: tag}, text: content().content, dragMM: {value:$data}\" id=\"2\" data-mm-tag=\"mm-2\">Text..</span>\n                \n\n            </div>\n        </div>\n        <div data-bind=\"foreach: $root.ice4m.dcmMain.layoutVM.listOfItems\">\n            \n                \n\n                    \n                    \n                    <span><img class=\"bgImage img-responsive ui-droppable\" data-bind=\"drop:{value: $root.ice4m.dcmMain.layoutVM.selectedElementBG.bind(id, $data)}, attr:{id: id, src: src().src, &apos;data-mm-tag&apos;: tag}\" id=\"0\" src=\"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg\" data-mm-tag=\"mm-0\">\n                        \n                    </span>\n                    \n                \n            \n            \n        \n            \n            \n        </div>\n    </body></html>","layoutId":"b00abed5-3465-42dc-b47a-54c349b15a26","multimedia":{"text":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/textbody/d543593e-db23-487b-8318-a33fc7a365b7","id":"d543593e-db23-487b-8318-a33fc7a365b7","kind":"multimediabody#text","property":{"isAssignedTo":"http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","name":"Text..","content":"Text..","context":"device","identity":"","class":"","tag":"mm-2","location":"","disabled":"false","readonly":"false"}}],"image":[{"url":"http://developer.scc.dexit.co/repos/techiesindev/multimediabody/imagebody/74643ed8-285b-4a40-b978-767a6f48c7d3","id":"74643ed8-285b-4a40-b978-767a6f48c7d3","kind":"multimediabody#image","property":{"isAssignedTo":["http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1","http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1"],"name":"dcmIMage","context":"device","identity":"","class":"","tag":"mm-0","location":"http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg","alt":"","ismap":"false","usemap":"false","width":"","height":""}}],"video":[],"audio":[],"link":[]}}]
+2015-01-29T21:27:32.861408+00:00 app[web.1]: Text..
+2015-01-29T21:27:32.861441+00:00 app[web.1]: http://dam.dexit.co.s3.amazonaws.com/knust/img/197688_498907320164279_40567127_n.jpg
+2015-01-29T21:27:32.868890+00:00 app[web.1]: TypeError: Object http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1,http://dexit.co/smartcontent/9ec04921-79d4-4cad-92e8-ac421f06a5e1 has no method 'on'
+2015-01-29T21:27:32.868894+00:00 app[web.1]:     at FormData.CombinedStream.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js:41:14)
+2015-01-29T21:27:32.868896+00:00 app[web.1]:     at FormData.append (/app/node_modules/tumblr.js/node_modules/request/node_modules/form-data/lib/form_data.js:33:3)
+2015-01-29T21:27:32.868897+00:00 app[web.1]:     at Object.TumblrClient._post (/app/node_modules/tumblr.js/lib/tumblr.js:193:12)
+2015-01-29T21:27:32.868899+00:00 app[web.1]:     at Object.photo (/app/node_modules/tumblr.js/lib/tumblr.js:35:12)
+2015-01-29T21:27:32.868901+00:00 app[web.1]:     at AbstractChannelHandler.deliver (/app/lib/abstract-channel-handler.js:113:11)
+2015-01-29T21:27:32.868902+00:00 app[web.1]:     at /app/routes/route_handler.js:34:17
+2015-01-29T21:27:32.868904+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:27:32.868906+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:100:13)
+2015-01-29T2
+1:27:32.868909+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:81:3)
+2015-01-29T21:27:32.868910+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:82:5)
+2015-01-29T21:27:33.172747+00:00 app[web.1]: 
+2015-01-29T21:27:33.173850+00:00 app[web.1]:     at Request._callback (/app/node_modules/tumblr.js/lib/tumblr.js:179:32)
+2015-01-29T21:27:33.173848+00:00 app[web.1]:     at /app/node_modules/tumblr.js/lib/tumblr.js:241:14
+2015-01-29T21:27:33.173852+00:00 app[web.1]:     at Request.self.callback (/app/node_modules/tumblr.js/node_modules/request/main.js:122:22)
+2015-01-29T21:27:33.173857+00:00 app[web.1]:     at Request.emit (events.js:117:20)
+2015-01-29T21:27:33.173859+00:00 app[web.1]:     at IncomingMessage.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:623:14)
+2015-01-29T21:27:33.173860+00:00 app[web.1]:     at IncomingMessage.emit (events.js:117:20)
+2015-01-29T21:27:33.173862+00:00 app[web.1]:     at _stream_readable.js:944:16
+2015-01-29T21:27:33.173844+00:00 app[web.1]: TypeError: Cannot read property 'id' of undefined
+2015-01-29T21:27:33.173854+00:00 app[web.1]:     at Request.emit (events.js:98:17)
+2015-01-29T21:27:33.173855+00:00 app[web.1]:     at Request.<anonymous> (/app/node_modules/tumblr.js/node_modules/request/main.js:661:16)
+2015-01-29T21:27:33.173847+00:00 app[web.1]:     at /app/lib/abstract-channel-handler.js:115:62
+2015-01-29T21:27:33.832292+00:00 heroku[web.1]: State changed from up to crashed
+2015-01-29T21:27:33.832292+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-29T21:27:33.814716+00:00 heroku[web.1]: Process exited with status 8
+2015-01-29T21:27:42.113723+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-01-29T21:27:52.513263+00:00 app[web.1]: Error waiting for network: Resource temporarily unavailable
