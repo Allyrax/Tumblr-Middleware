@@ -102,7 +102,29 @@
                         }
                     }
                 ],
-                "video": [],
+                "video": [
+				{
+				   "url": "http://developer.scc.dexit.co/repos/latest/multimediabody/videobody/5dbb1870-dd80-485a-a5d8-72bd01cc07f2",
+				   "id": "5dbb1870-dd80-485a-a5d8-72bd01cc07f2",
+				   "kind": "multimediabody#video",
+				   "property": {
+					   "isAssignedTo": "http://dexit.co/smartcontent/ae21abf4-9d29-492e-9c8d-59243c94ab54",
+					   "name": "dcmVideo",
+					   "context": "device",
+					   "identity": "",
+					   "class": "",
+					   "location": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+					   "autoplay": "true",
+					   "controls": "true",
+					   "tag": "mm-0",
+					   "loop": "true",
+					   "muted": "true",
+					   "poster": "true",
+					   "preload": "",
+					   "width": "",
+					   "height": ""
+					}
+				}],
                 "audio": [],
                 "link": []
             }
